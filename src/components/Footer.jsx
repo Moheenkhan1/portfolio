@@ -82,6 +82,11 @@ const Copyright = styled.p`
   font-size: 0.9rem;
   color: white;
   text-align: center;
+  margin-bottom:1rem;
+   @media (max-width: 768px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 `;
 
 const Footer = () => {
@@ -106,7 +111,7 @@ const Footer = () => {
           <SocialMediaIcon href='https://www.linkedin.com/in/moheenkhan-inamdar-bb62ba242' target="display">
             <LinkedIn />
           </SocialMediaIcon>
-          <SocialMediaIcon href='' target="display">
+          <SocialMediaIcon href='https://www.instagram.com/moheenkhan_inamdar?igsh=MW02Y3hpc2tidGlpZw==' target="display">
             <Instagram />
           </SocialMediaIcon>
         </SocialMediaIcons>
