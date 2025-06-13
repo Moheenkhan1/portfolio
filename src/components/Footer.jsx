@@ -9,7 +9,7 @@ import {
 
 const FooterContainer = styled.div`
   width: 100vw;
-  padding: 2rem 0;
+  
   display: flex;
   justify-content: center;
   z-index: 10;
@@ -25,7 +25,7 @@ const FooterWrapper = styled.div`
   flex-direction: column;
   gap: 14px;
   align-items: center;
-  padding: 1rem;
+  
   color: white;
   
 `;
@@ -33,6 +33,7 @@ const Logo = styled.div`
   font-weight: 700;
   font-size: 25px;
   color: #7F17D5;
+  margin-top:3rem;
 `;
 const Nav = styled.ul`
   width: 100%;
@@ -64,7 +65,7 @@ const NavLink = styled.a`
 `;
 const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 `;
 const SocialMediaIcon = styled.a`
   display: inline-block;
@@ -77,7 +78,7 @@ const SocialMediaIcon = styled.a`
   }
 `;
 const Copyright = styled.p`
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: 0.9rem;
   color: white;
   text-align: center;

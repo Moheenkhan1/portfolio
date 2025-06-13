@@ -5,13 +5,10 @@ import {delay, motion} from 'framer-motion'
 
 const Landing = () => {
   return (
-<div id="About" className="bg-[#12172a] w-screen min-h-[90vh] mt-[10vh] max-sm:z-10 flex flex-col-reverse xl:flex-row items-center justify-center gap-10 px-4">
+<div id="About" className="bg-[#12172a] w-[100vw] min-h-[90vh] mt-[10vh] max-sm:z-10 flex flex-col-reverse xl:flex-row items-center justify-center gap-10">
       
       {/* Left Section - Text */}
-      <div 
-      
-
-      className="bg-transparent w-full max-xl:w-[80%] xl:w-[42%] text-white p-6 xl:p-12">
+      <div className="bg-transparent w-full max-xl:w-[80%] xl:w-[42%] text-white  ">
         <motion.h2 
         initial={{opacity:0, x:-100}}
         animate={{opacity:1, x:0}}
