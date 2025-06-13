@@ -16,8 +16,8 @@ const Hero = () => {
     <Landing/>
     <Skills />
     <Projects/>
-    {/* <Education/>
-    <Contact/> */}
+    {/* <Education/> */}
+    <Contact/>
     </div>
     </>
   );
