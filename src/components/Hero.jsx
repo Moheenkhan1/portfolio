@@ -14,10 +14,9 @@ const Hero = () => {
     <>
     <div className="bg-[#12172a] " >
     <Landing/>
-    {/* <Scrolltext/> */}
     <Skills />
-    {/* <Projects/>
-    <Education/>
+    <Projects/>
+    {/* <Education/>
     <Contact/> */}
     </div>
     </>
