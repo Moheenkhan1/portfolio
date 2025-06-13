@@ -15,10 +15,10 @@ const Hero = () => {
     <div className="bg-[#12172a] " >
     <Landing/>
     {/* <Scrolltext/> */}
-    <Skills />
+    {/* <Skills />
     <Projects/>
     <Education/>
-    <Contact/>
+    <Contact/> */}
     </div>
     </>
   );
