@@ -58,19 +58,20 @@ const Landing = () => {
 
       {/* Right Section - Image */}
       <motion.div 
-      initial={{opacity:0, x:100}}
-      animate={{opacity:1, x:0}}
-      transition={{delay:0.5, duration:1}}
-      
-      className="w-full max-sm:mt-10 xl:w-[30%] flex justify-center">
-        <Tilt className="h-60 w-60 max-xl:h-[50%] max-xl:w-[50%] xl:h-[80%] xl:w-[100%] rounded-full border-4 border-[#7D64D4] shadow-[3px_3px_45px_rgba(125,100,212,1)]">
-          <img
-            src={portfolioimage}
-            alt="Profile"
-            className="w-full h-full rounded-full object-cover"
-          />
-        </Tilt>
-      </motion.div>
+  initial={{opacity:0, x:100}}
+  animate={{opacity:1, x:0}}
+  transition={{delay:0.5, duration:1}}
+  className="w-full max-sm:mt-10 max-w-[300px] sm:max-w-[550px] flex justify-center"
+>
+  <Tilt className="w-full aspect-square rounded-full border-4 border-[#7D64D4] shadow-[3px_3px_45px_rgba(125,100,212,1)]">
+    <img
+      src={portfolioimage}
+      alt="Profile"
+      className="w-full h-full rounded-full object-cover"
+    />
+  </Tilt>
+</motion.div>
+
       
     </div>
   )
