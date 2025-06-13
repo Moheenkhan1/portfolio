@@ -5,7 +5,7 @@ import {delay, motion} from 'framer-motion'
 
 const Landing = () => {
   return (
-<div id="About" className="bg-[#12172a] w-full min-h-[90vh] mt-[10vh] max-sm:z-10 flex flex-col-reverse xl:flex-row items-center justify-center gap-10 px-4">
+<div id="About" className="bg-[#12172a] w-screen min-h-[90vh] mt-[10vh] max-sm:z-10 flex flex-col-reverse xl:flex-row items-center justify-center gap-10 px-4">
       
       {/* Left Section - Text */}
       <div 

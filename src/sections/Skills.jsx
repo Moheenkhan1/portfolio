@@ -9,7 +9,7 @@ const Skills = () => {
         threshold:0.2
     })
   return (
-    <div id="Skills" className="skills bg-[#12172a] w-full min-h-[120vh] max-sm:min-h-[220vh] text-white text-center mt-10  ">
+    <div id="Skills" className="skills bg-[#12172a] w-screen min-h-[120vh] max-sm:min-h-[220vh] text-white text-center mt-10  ">
         <motion.h1
         ref={ref} 
         initial={{opacity:0, y:-100}}

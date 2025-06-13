@@ -8,7 +8,7 @@ import EarthCanvas from "../components/canvas/Earth";
 
 const Education = () => {
   return (
-    <div id='Education' className="min-h-[100vh] w-full text-white text-center px-4 md:px-10 mt-10">
+    <div id='Education' className="min-h-[100vh] w-screen text-white text-center px-4 md:px-10 mt-10">
       <h1 className="text-[2.5rem] md:text-[3.5rem] font-[Anton SC] font-extrabold">
         Education
       </h1>
