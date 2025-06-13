@@ -16,7 +16,7 @@ const Hero = () => {
     <Landing/>
     <Skills />
     <Projects/>
-    {/* <Education/> */}
+    <Education/>
     <Contact/>
     </div>
     </>
