@@ -48,10 +48,14 @@ const Desc = styled.div`
   text-align: center;
   font-weight: 600;
   color: white;
+
   @media (max-width: 768px) {
     font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 `;
+
 
 const ContactForm = styled.form`
   width: 95%;

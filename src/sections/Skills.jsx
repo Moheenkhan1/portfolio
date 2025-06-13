@@ -12,7 +12,7 @@ const SkillBox = ({ name, logo, rating }) => (
       bg-[#101325] rounded-xl shadow-[0_0px_6px_rgba(90,69,145,1)] 
       border border-[#4a548a] text-[#A2A3B1] font-bold 
       hover:bg-[#6F5EB2] hover:text-white'>
-    <div className="flex items-center justify-center gap-2">
+    <div className="flex items-center justify-center ">
       <img className="h-[70%] w-[25%] object-contain" src={logo} alt={name} />
       <h2 className="text-sm max-sm:text-xs text-center">{name}</h2>
     </div>

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id='projects' className=' w-full max-sm:mt-4 min-h-[80vh] text-center text-white ' >
         <h1 className=" text-[3rem] md:text-[3.5rem] font-[Anton SC] font-extrabold " >Projects</h1>
-        <p className="text-lg text-[#A2A3B1] font-semibold mt-2">I have Worked on a wide Range of projects . Here are some of them</p>
+        <p className="text-lg max-sm:px-4 text-[#A2A3B1] font-semibold mt-2">I have Worked on a wide Range of projects . Here are some of them</p>
 
         <div className=' w-[100%] min-h-[80%] flex flex-wrap mt-10 max-sm:mt-10 max-xl:mt-10 items-center justify-center gap-8 ' >
             <div className=' h-[84%] w-[20%] max-sm:w-[70%] max-xl:w-[40%] bg-[#161621] rounded-3xl p-5 shadow-[0px_1px_15px_rgba(125,100,212,0.5)] ' >

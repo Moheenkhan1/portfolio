@@ -12,7 +12,7 @@ const Education = () => {
       <h1 className="text-[2.5rem] md:text-[3.5rem] font-[Anton SC] font-extrabold">
         Education
       </h1>
-      <p className="text-base md:text-lg text-[#A2A3B1] font-semibold mt-2">
+      <p className="text-base max-sm:px-4 md:text-lg text-[#A2A3B1] font-semibold mt-2">
         My Education has been a journey of self-discovery and growth. My Education details are as follows.
       </p>
 
