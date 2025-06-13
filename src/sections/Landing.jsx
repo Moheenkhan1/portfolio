@@ -25,7 +25,7 @@ const Landing = () => {
           <span className=" max-sm:hidden text-[#7D64D4] ml-3 max-sm:ml-0  animate-typing max-sm:animate-typing-sm ">
             FullStack Web Developer.!
           </span>
-          <span className="sm:hidden text-[#7D64D4] ml-3 max-sm:ml-0  animate-typing max-sm:animate-typing-sm ">
+          <span className="sm:hidden text-[#7D64D4] ml-3 max-sm:ml-0 animate-typing-sm ">
             FullStack Developer!
           </span>
         </motion.h3>
