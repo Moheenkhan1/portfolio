@@ -7,9 +7,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='bg-[#090A17] h-[10vh] w-[100vw] z-55  fixed top-0 left-0 text-white flex items-center justify-evenly max-sm:justify-between ' >
+    <div className='bg-[#090A17] h-[10vh] w-full z-50  fixed top-0 left-0 text-white flex items-center justify-evenly max-sm:justify-between ' >
         <div className=' text-2xl font-extrabold max-sm:ml-[2rem] ' > Portfolio </div>
-        <div className=' flex max-sm:hidden justify-evenly gap-15 max-md:gap-3  text-lg font-semibold ' >
+        <div className=' flex max-sm:hidden justify-evenly gap-16 max-md:gap-3  text-lg font-semibold ' >
             <a href="#About" className=' hover:text-[#6F5EB2] ' >About</a>
             <a href="#Skills" className=' hover:text-[#6F5EB2] ' >Skills</a>
             <a href="#projects" className=' hover:text-[#6F5EB2] ' >Projects</a>
