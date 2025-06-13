@@ -41,7 +41,7 @@ const Projects = () => {
                 <div className=' h-[35%] p-3 w-[100%] flex flex-col justify-start items-start mt-2 max-sm:mt-0 ' >
                     <h2 className="flex items-center text-[1rem] md:text-[1.2rem] font-[Anton SC] font-bold " > Realtime Chat Website 
                         <a 
-                        className='flex items-center border-1 border-white rounded p-1 text-md ml-3 font-semibold text-[blue] ' 
+                        className='flex items-center border border-transparent rounded p-1 text-md ml-3 font-semibold text-blue-500 hover:underline' 
                         href="https://sparkly-fox-8bf700.netlify.app"
                         target="_blank" 
                         rel="noopener noreferrer"
@@ -85,9 +85,9 @@ const Projects = () => {
                 </div>
                 <div className=' h-[35%] p-3 w-[100%] flex flex-col justify-start items-start mt-2 max-sm:mt-0 ' >
                     <h2 className="flex items-center text-[1rem] md:text-[1.2rem] font-[Anton SC] font-bold " > Realtime Chat Website 
-                        <a 
-                        className='flex items-center border-1 border-white rounded p-1 text-md ml-3 font-semibold text-[blue] ' 
-                        href="https://sparkly-fox-8bf700.netlify.app"
+                        <a
+                        className='flex items-center border border-transparent rounded p-1 text-md ml-3 font-semibold text-blue-500 hover:underline' 
+                       href="https://sparkly-fox-8bf700.netlify.app"
                         target="_blank" 
                         rel="noopener noreferrer"
                         >Link <FiLink className=' text-sm font-semibold' size={20} color="blue" /></a> 
@@ -130,9 +130,9 @@ const Projects = () => {
                 </div>
                 <div className=' h-[35%] p-3 w-[100%] flex flex-col justify-start items-start mt-2 max-sm:mt-0 ' >
                     <h2 className="flex items-center text-[1rem] md:text-[1.2rem] font-[Anton SC] font-bold " > Realtime Chat Website 
-                        <a 
-                        className='flex items-center border-1 border-white rounded p-1 text-md ml-3 font-semibold text-[blue] ' 
-                        href="https://sparkly-fox-8bf700.netlify.app"
+                        <a
+                        className='flex items-center border border-transparent rounded p-1 text-md ml-3 font-semibold text-blue-500 hover:underline' 
+                         href="https://sparkly-fox-8bf700.netlify.app"
                         target="_blank" 
                         rel="noopener noreferrer"
                         >Link <FiLink className=' text-sm font-semibold' size={20} color="blue" /></a> 

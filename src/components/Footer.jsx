@@ -8,7 +8,7 @@ import {
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
-  width: 100%;
+  width: 100vw;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
