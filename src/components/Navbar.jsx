@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className='bg-[#090A17] h-[10vh] w-full z-55  fixed top-0 left-0 text-white flex items-center justify-evenly max-sm:justify-between ' >
         <div className=' text-2xl font-extrabold max-sm:ml-[2rem] ' > Portfolio </div>
         <div className=' flex max-sm:hidden justify-evenly gap-15 max-md:gap-3  text-lg font-semibold ' >
-            <Link className=' hover:text-[#6F5EB2] ' >About</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Skills</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Projects</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Education</Link>
+            <a href="#About" className=' hover:text-[#6F5EB2] ' >About</a>
+            <a href="#Skills" className=' hover:text-[#6F5EB2] ' >Skills</a>
+            <a href="#projects" className=' hover:text-[#6F5EB2] ' >Projects</a>
+            <a href="#Education" className=' hover:text-[#6F5EB2] ' >Education</a>
         </div>
         <div className='flex items-center justify-center gap-4  max-sm:mr-[2rem] ' >
         <a 

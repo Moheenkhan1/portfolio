@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 @layer utilities {
   @keyframes typing {
     from {
@@ -24,6 +26,10 @@
     overflow: hidden;
     border-right: 4px solid white;
     animation: typing 3s steps(23, end) infinite, blink 0.7s infinite;
+  }
+
+   html {
+    scroll-behavior: smooth;
   }
   
 }

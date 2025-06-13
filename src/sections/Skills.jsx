@@ -1,12 +1,27 @@
 import React from "react";
 import portfolioimage from "../assets/portfolioimage.jpg";
 import { Tilt } from "react-tilt";
+import {motion, useInView} from 'framer-motion'
 
 const Skills = () => {
+    const {ref, inView}=useInView({
+        triggerOnce: true,
+        threshold:0.2
+    })
   return (
-    <div className="skills bg-[#080914] w-full min-h-[120vh] max-sm:min-h-[220vh] text-white text-center mt-10  ">
-        <h1 className=" text-[3rem] md:text-[3.5rem] font-[Anton SC] font-extrabold " >SKILLS</h1>
-        <p className="text-lg text-[#A2A3B1] font-semibold mt-2">Here are some of the Skills I have been working on for the past years</p>
+    <div id="Skills" className="skills bg-[#12172a] w-full min-h-[120vh] max-sm:min-h-[220vh] text-white text-center mt-10  ">
+        <motion.h1
+        ref={ref} 
+        initial={{opacity:0, y:-100}}
+        animate={inView? {opacity:1, y:0} : {opacity:1, y:0}}
+        transition={{delay:0.3, duration:0.5}}
+        className=" text-[3rem] md:text-[3.5rem] font-[Anton SC] font-extrabold " >SKILLS</motion.h1>
+        <motion.p 
+        initial={{opacity:0, y:-100}}
+        animate={{opacity:1, y:0}}
+        transition={{delay:0.8, duration:1}}
+        
+        className="text-lg text-[#A2A3B1] font-semibold mt-2">Here are some of the Skills I have been working on for the past years</motion.p>
         <div className=" h-[70vh] w-full flex flex-wrap items-center justify-center gap-20 mt-10 " >
             <Tilt className=" h-[60%] w-[35%] max-sm:w-[70%] bg-[#111627] rounded-4xl border-4 border-[#4a548a] " >
                 <h2 className=" text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold " >Frontend</h2>

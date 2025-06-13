@@ -7,16 +7,18 @@ import Landing from "../sections/Landing";
 import Scrolltext from "../sections/Scrolltext";
 import Projects from "../sections/Projects";
 import Education from "../sections/Education";
+import Contact from "../sections/Contact";
 
 const Hero = () => {
   return (
     <>
-    <div className="bg-[#080914] " >
+    <div className="bg-[#12172a] " >
     <Landing/>
-    <Scrolltext/>
+    {/* <Scrolltext/> */}
     <Skills />
     <Projects/>
     <Education/>
+    <Contact/>
     </div>
     </>
   );

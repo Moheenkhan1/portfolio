@@ -3,7 +3,7 @@ import { FiLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <div className=' w-full min-h-[80vh] text-center text-white ' >
+    <div id='projects' className=' w-full min-h-[80vh] text-center text-white ' >
         <h1 className=" text-[3rem] md:text-[3.5rem] font-[Anton SC] font-extrabold " >Projects</h1>
         <p className="text-lg text-[#A2A3B1] font-semibold mt-2">I have Worked on a wide Range of projects . Here are some of them</p>
 
