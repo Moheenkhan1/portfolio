@@ -17,8 +17,8 @@ const Navbar = () => {
         </div>
         <div className='flex items-center justify-center gap-4  max-sm:mr-[2rem] ' >
         <a 
-        className='transition-[0.1sec] flex justify-center items-center w-[10rem] 
-        bg-[#090B1C] h-[3rem] rounded-full shadow-[0_0px_8px_rgba(90,69,145)] border-2 border-[#6F5EB2] 
+        className='transition-[0.1sec] flex justify-center items-center w-[10rem] max-sm:w-[7rem] 
+        bg-[#090B1C] h-[3rem] max-sm:h-[2.5rem] rounded-full shadow-[0_0px_8px_rgba(90,69,145)] border-2 border-[#6F5EB2] 
         text-[#6F5EB2] font-bold hover:bg-[#6F5EB2] hover:text-white '
         href='https://github.com/Moheenkhan1'
         target="_blank" 
@@ -37,10 +37,10 @@ const Navbar = () => {
         </div>
         { isOpen && (
             <div className='sm:hidden absolute top-[10vh] left-0 w-full bg-[#090A17] z-40 p-6 flex flex-col items-center space-y-4 shadow-md transition-all ' >
-            <Link className=' hover:text-[#6F5EB2] ' >About</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Skills</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Projects</Link>
-            <Link className=' hover:text-[#6F5EB2] ' >Education</Link>
+            <a href="#About" className=' hover:text-[#6F5EB2] ' >About</a>
+            <a href="#Skills" className=' hover:text-[#6F5EB2] ' >Skills</a>
+            <a href="#projects" className=' hover:text-[#6F5EB2] ' >Projects</a>
+            <a href="#Education" className=' hover:text-[#6F5EB2] ' >Education</a>
             </div>
           ) 
         }

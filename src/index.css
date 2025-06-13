@@ -3,7 +3,7 @@
 
 
 @layer utilities {
-  @keyframes typing {
+  /* @keyframes typing {
     from {
       width: 0;
     }
@@ -13,7 +13,13 @@
     to {
       width: 67%;
     }
-  }
+  } */
+
+  @keyframes typing {
+  from { width: 0; }
+  to { width: 24ch; }  /* ch = character units */
+}
+
 
   @keyframes blink {
     50% {
@@ -25,7 +31,21 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid white;
-    animation: typing 3s steps(23, end) infinite, blink 0.7s infinite;
+    width:24ch;
+    animation: typing 4s steps(24, end) infinite, blink 0.7s infinite;
+  }
+
+  .animate-typing-sm {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid white;
+    width: 18ch;
+    animation: typing-sm 3s steps(18, end) infinite, blink 0.7s infinite;
+  }
+
+  @keyframes typing-sm {
+    from { width: 0; }
+    to { width: 18ch; }
   }
 
    html {
