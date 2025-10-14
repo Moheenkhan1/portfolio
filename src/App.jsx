@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-    <div className=' bg-[#12172a] ' >
+    <div className=' bg-[#12172a]  ' >
 
     <ToastContainer/>
     <Navbar/>

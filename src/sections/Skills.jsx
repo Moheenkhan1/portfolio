@@ -61,7 +61,7 @@ const Skills = () => {
 
         {/* === BACKEND === */}
         <Tilt className="h-[60%] w-[35%] max-sm:w-[70%] bg-[#111627] rounded-4xl border-4 border-[#4a548a] p-5">
-          <h2 className="text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold">Backend</h2>
+          <h2 className="text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold">MERN(Backend)</h2>
           <div className="flex flex-wrap gap-5 items-center justify-center mt-10">
             <SkillBox name="Express JS" logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" rating={4.3} />
             <SkillBox name="NODE Js" logo="https://nodejs.org/static/images/logo.svg" rating={4.2} />
@@ -73,33 +73,31 @@ const Skills = () => {
           </div>
         </Tilt>
 
-        {/* === DEVOPS === */}
+        {/* === BACKEND === */}
         <Tilt className="h-[60%] w-[35%] max-sm:w-[70%] bg-[#111627] rounded-4xl border-4 border-[#4a548a] p-5">
-          <h2 className="text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold">DevOps</h2>
-          <div className="flex flex-wrap gap-5 items-center justify-center mt-10">
-            <SkillBox name="Docker" logo="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" rating={3.8} />
-            <SkillBox name="GitHub Actions" logo="https://avatars.githubusercontent.com/u/44036562?s=280&v=4" rating={3.7} />
-            <SkillBox name="CI/CD" logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/Jenkins_logo.svg" rating={3.9} />
-            <SkillBox name="Linux" logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" rating={3.6} />
-            <SkillBox name="Nginx" logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" rating={3.5} />
-            <SkillBox name="PM2" logo="https://pm2.keymetrics.io/images/pm2-logo-300.png" rating={3.7} />
-            <SkillBox name="Netlify CLI" logo="https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png" rating={3.6} />
-            <SkillBox name="Vercel CLI" logo="https://vercel.com/favicon.ico" rating={3.8} />
-          </div>
+          <h2 className="text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold">JAVA(Backend)</h2>
+            <div className="flex flex-wrap gap-5 items-center justify-center mt-10">
+              <SkillBox name="Java" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" rating={4.3} />
+              <SkillBox name="Spring Boot" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" rating={4.3} />
+              <SkillBox name="Hibernate" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/hibernate/hibernate-original.svg" rating={4.2} />
+              <SkillBox name="MySQL" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" rating={4.2} />
+              <SkillBox name="RESTful API (Spring MVC)" logo="/RESTfulAPI.png" rating={4.0} />
+              <SkillBox name="Spring Security (JWT)" logo="https://jwt.io/img/pic_logo.svg" rating={4.1} />
+              <SkillBox name="Spring Security (BCrypt)" logo="https://jwt.io/img/pic_logo.svg" rating={4.0} />
+            </div>  
         </Tilt>
 
         {/* === OTHERS === */}
         <Tilt className="h-[60%] w-[35%] max-sm:w-[70%] bg-[#111627] rounded-4xl border-4 border-[#4a548a] p-5">
           <h2 className="text-[2rem] text-[#A2A3B1] md:text-[2.5rem] font-[Anton SC] font-extrabold">Others</h2>
           <div className="flex flex-wrap gap-5 items-center justify-center mt-10">
-            <SkillBox name="JAVA" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" rating={3.5} />
+            {/* <SkillBox name="JAVA" logo="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" rating={3.5} /> */}
+            <SkillBox name="DSA" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLtEqG5jNQOmX2kzp1Gm0lH0rbgTIDs9HXWA&s" rating={4.2} />
             <SkillBox name="C" logo="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" rating={3.2} />
             <SkillBox name="Git" logo="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" rating={3.4} />
             <SkillBox name="GitHub" logo="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" rating={3.3} />
             <SkillBox name="Vercel" logo="https://vercel.com/favicon.ico" rating={3.5} />
-            <SkillBox name="Netlify" logo="https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png" rating={3.2} />
-            <SkillBox name="Postman" logo="https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png" rating={3.4} />
-            <SkillBox name="VS Code" logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" rating={3.5} />
+            <SkillBox name="Netlify" logo="https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png" rating={3.2} />            <SkillBox name="VS Code" logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" rating={3.5} />
           </div>
         </Tilt>
       </div>
