@@ -42,6 +42,7 @@ const Navbar = () => {
             <a href="#Skills" className=' hover:text-[#6F5EB2] ' >Skills</a>
             <a href="#projects" className=' hover:text-[#6F5EB2] ' >Projects</a>
             <a href="#Education" className=' hover:text-[#6F5EB2] ' >Education</a>
+            <a href="#contact" className=' hover:text-[#6F5EB2] ' >Contact</a>
             </div>
           ) 
         }
