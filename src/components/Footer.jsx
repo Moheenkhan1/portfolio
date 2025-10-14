@@ -5,6 +5,7 @@ import {
   Instagram,
   LinkedIn,
   Twitter,
+  Email,
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
@@ -114,6 +115,10 @@ const Footer = () => {
           <SocialMediaIcon href='https://www.instagram.com/moheenkhan_inamdar?igsh=MW02Y3hpc2tidGlpZw==' target="display">
             <Instagram />
           </SocialMediaIcon>
+          <SocialMediaIcon href='mailto:moheenkhanpersonal@gmail.com' target="display">
+            <Email />
+          </SocialMediaIcon>
+
         </SocialMediaIcons>
         <Copyright>&copy; 2025 Moheenkhan Inamdar. All rights reserved.</Copyright>
       </FooterWrapper>
