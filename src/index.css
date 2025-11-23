@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.root{
+  background-color: #12172a  ;
+}
+
 
 
 @layer utilities {
