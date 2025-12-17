@@ -103,12 +103,6 @@ const Footer = () => {
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          {/* <SocialMediaIcon href='' target="display">
-            <FacebookRounded />
-          </SocialMediaIcon>
-          <SocialMediaIcon href='' target="display">
-            <Twitter />
-          </SocialMediaIcon> */}
           <SocialMediaIcon href='https://www.linkedin.com/in/moheenkhan-inamdar-bb62ba242' target="display">
             <LinkedIn />
           </SocialMediaIcon>

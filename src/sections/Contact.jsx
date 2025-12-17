@@ -219,7 +219,7 @@ debounceTimer.current = setTimeout(() => {
   };
 
   return (
-    <Container id="contact">
+    <Container id="Contact">
       {/* <ToastContainer /> */}
       <Wrapper>
         <Title>Contact</Title>

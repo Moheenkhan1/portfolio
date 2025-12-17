@@ -32,6 +32,7 @@ const skillChipClass =
 const ServiceCard = ({ icon, title, subtitle, skills, colorClass }) => {
   return (
     <motion.article
+      id="Skills"
       whileHover={{ y: -8, scale: 1.02 }}
       whileTap={{ scale: 0.995 }}
       initial={{ opacity: 0, y: 14 }}
