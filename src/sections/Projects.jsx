@@ -32,7 +32,7 @@ const projects = [
     "Personal developer portfolio showcasing projects, skills, and contact information.",
   long:
     "Personal Portfolio Website — responsive and performance-focused portfolio built with React. Showcases projects, technical skills, and experience with a clean UI, smooth navigation, and modern design principles. Designed to present a strong professional identity and improve recruiter engagement.",
-  tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design"],
+  tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Tailwind CSS"],
   media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765982305/p2_vtdzjb.mp4",
   poster: previewImagePath,
   isVideo: true,
@@ -112,7 +112,7 @@ export default function Projects() {
 
           `}</style>
 
-          <div className="flex items-center justify-center gap-5 ">
+          <div className="flex items-center justify-center gap-5 flex-wrap">
             {projects.map((p, i) => (
               <motion.article
                 key={p.id}

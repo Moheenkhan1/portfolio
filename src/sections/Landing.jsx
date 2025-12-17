@@ -53,7 +53,7 @@ function AdvancedProfile() {
   return (
     <div
       ref={containerRef}
-      className="relative w-full max-w-[560px] h-[560px] flex items-center justify-center"
+      className="relative w-full max-w-[560px] max-h-[560px] max-sm:max-h-[360px] flex items-center justify-center"
       aria-hidden
     >
       {/* large organic gradient still-shadow (behind the image) */}
@@ -113,14 +113,14 @@ function AdvancedProfile() {
 
         {/* main image outer ring (thicker) */}
         <div
-          className="relative rounded-full overflow-hidden w-full h-full border-[6px] shadow-[0_40px_140px_rgba(125,100,212,0.26)]"
+          className="relative rounded-full overflow-hidden w-full h-full max-sm:h-[80%] border-[6px] shadow-[0_40px_140px_rgba(125,100,212,0.26)]"
           style={{ borderColor: "rgba(125,100,212,0.20)" }}
         >
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#171725] to-[#0c0f1a]" />
           <img
             src={portfolioimage}
             alt="profile"
-            className="w-full h-full object-cover relative z-10"
+            className="w-full h-[100%] object-cover relative z-10"
           />
           <div
             className="absolute inset-0 rounded-full mix-blend-overlay"
