@@ -149,7 +149,7 @@ export default function Projects() {
                 initial="hidden"
                 animate={inView ? "show" : "hidden"}
                 variants={prefersReduced ? { hidden: {}, show: {} } : cardReveal}
-                className="relative w-full ml-[35%] "
+                className="relative w-full  "
               >
                 <div
                   className="project-card relative rounded-2xl overflow-hidden border border-white/8 bg-[#0f1424]/60 shadow-[0_12px_40px_rgba(0,0,0,0.6)] project-card-inner"
