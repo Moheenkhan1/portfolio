@@ -39,7 +39,7 @@ const projects = [
   poster: previewImagePath,
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
-  repo: "https://github.com/Moheenkhan1/portfolio-website.git"
+  repo: "https://github.com/Moheenkhan1/portfolio.git"
 }
 ];
 

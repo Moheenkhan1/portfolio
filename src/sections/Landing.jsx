@@ -309,7 +309,7 @@ const Landing = () => {
             </motion.a>
 
             <motion.div whileHover={{ scale: 1.03 }} className="inline-block">
-              <Link to="projects" smooth={true} duration={500} offset={-70} className="inline-block">
+              <Link to="Projects" smooth={true} duration={500} offset={-70} className="inline-block">
                 <button className="px-6 py-3 rounded-full border border-white/10 bg-white/3 backdrop-blur-md text-sm font-medium transition-colors btn-glow">
                   View Projects
                 </button>
