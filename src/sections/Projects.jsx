@@ -34,7 +34,7 @@ const projects = [
     "Personal Portfolio Website — responsive and performance-focused portfolio built with React. Showcases projects, technical skills, and experience with a clean UI, smooth navigation, and modern design principles. Designed to present a strong professional identity and improve recruiter engagement.",
   tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design"],
   media: p2video,
-  poster: portfolioPreviewImage,
+  poster: previewImagePath,
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
   repo: "https://github.com/Moheenkhan1/portfolio-website.git"
