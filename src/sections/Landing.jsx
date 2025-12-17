@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import portfolioimage from "../assets/portfolioimage.jpg";
+// import portfolioimage1 from "../assets/portfolioimage.jpg";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-scroll";
@@ -23,6 +23,8 @@ function AdvancedProfile() {
   const my = useMotionValue(0);
   const tx = useTransform(mx, (v) => `${v / 10}px`);
   const ty = useTransform(my, (v) => `${v / 10}px`);
+  
+  const portfolioimage ="https://res.cloudinary.com/diydvemrv/image/upload/v1765982042/portfolioimage_pdsunp.jpg";
 
   useEffect(() => {
     const node = containerRef.current;

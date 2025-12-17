@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioimage from "../assets/portfolioimage.jpg";
+// import portfolioimage from "../assets/portfolioimage.jpg";
 import { Tilt } from "react-tilt";
 import ScrollVelocity from '../utils/ScrollVelocity';
 import Skills from "../sections/Skills";

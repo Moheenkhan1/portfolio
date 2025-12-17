@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FiLink, FiGithub, FiX } from "react-icons/fi";
 
-import p1video from "../assets/p1.mp4";
-import p2video from "../assets/p2.mp4";
+// import p1video from "../assets/p1.mp4";
+// import p2video from "../assets/p2.mp4";
 
 const previewImagePath = "/mnt/data/A_portfolio_showcase_image_on_projects_displays_fo.png";
 
@@ -18,7 +18,7 @@ const projects = [
     long:
       "Realtime Chat Website — full-featured chat system using React, Socket.io, Node/Express, MongoDB. Supports file uploads, message editing/deleting/forwarding, and secure JWT authentication. Focus on UX and real-time reliability.",
     tech: ["React", "Socket.io", "Express", "MongoDB", "JWT", "Cloudinary"],
-    media: p1video,
+    media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765982326/p1_vgrqgx.mp4",
     poster: previewImagePath,
     isVideo: true,
     live: "https://sparkly-fox-8bf700.netlify.app",
@@ -33,7 +33,7 @@ const projects = [
   long:
     "Personal Portfolio Website — responsive and performance-focused portfolio built with React. Showcases projects, technical skills, and experience with a clean UI, smooth navigation, and modern design principles. Designed to present a strong professional identity and improve recruiter engagement.",
   tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design"],
-  media: p2video,
+  media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765982305/p2_vtdzjb.mp4",
   poster: previewImagePath,
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
