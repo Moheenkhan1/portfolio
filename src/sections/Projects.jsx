@@ -19,6 +19,7 @@ const projects = [
       "Realtime Chat Website — full-featured chat system using React, Socket.io, Node/Express, MongoDB. Supports file uploads, message editing/deleting/forwarding, and secure JWT authentication. Focus on UX and real-time reliability.",
     tech: ["React", "Socket.io", "Express", "MongoDB", "JWT", "Cloudinary"],
     media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765982326/p1_vgrqgx.mp4",
+    imageURL:"https://res.cloudinary.com/diydvemrv/image/upload/v1765990629/chatapp_ulliz4.png",
     poster: previewImagePath,
     isVideo: true,
     live: "https://sparkly-fox-8bf700.netlify.app",
@@ -34,6 +35,7 @@ const projects = [
     "Personal Portfolio Website — responsive and performance-focused portfolio built with React. Showcases projects, technical skills, and experience with a clean UI, smooth navigation, and modern design principles. Designed to present a strong professional identity and improve recruiter engagement.",
   tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Tailwind CSS"],
   media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765989728/portfoliooo_e7pz6r.mp4",
+  imageURL:"https://res.cloudinary.com/diydvemrv/image/upload/v1765990629/portfoliooooooooo_cnvisc.png",
   poster: previewImagePath,
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
@@ -140,7 +142,7 @@ export default function Projects() {
 
                   {/* media */}
                   <div className="w-full bg-[#090A17]">
-                    {p.isVideo ? (
+                    {/* {p.isVideo ? (
                       <video
                         src={p.media}
                         poster={p.poster || undefined}
@@ -151,9 +153,8 @@ export default function Projects() {
                         loop={!prefersReduced}
                         preload="none"
                       />
-                    ) : (
-                      <img src={p.media} alt={p.title} className="project-card-media" loading="lazy" />
-                    )}
+                    ) : ( */}
+                      <img src={p.imageURL} alt={p.title} className="project-card-media" loading="lazy" />
                   </div>
 
                   {/* content */}
@@ -267,12 +268,14 @@ export default function Projects() {
                       muted={false}
                       playsInline
                       className="w-full h-full object-cover"
+                      preload="none"
                     />
                   ) : (
                     <img
                       src={projects.find((x) => x.id === openId)?.media}
                       alt={projects.find((x) => x.id === openId)?.title}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   )}
                 </div>
