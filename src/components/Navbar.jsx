@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { RiMenuFill, RiCloseFill } from "react-icons/ri";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-scroll";
 
-const links = ["About", "Skills", "projects", "Education", "Contact"];
+const links = ["About", "Skills", "Projects", "Education", "Contact"];
 
 const NavLink = ({ to, children, onClick }) => (
   <a
@@ -72,9 +73,9 @@ const Navbar = () => {
               onClick={() => setIsOpen((s) => !s)}
               aria-expanded={isOpen}
               aria-label="Toggle menu"
-              className="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-white hover:text-[#6F5EB2]"
+              className="sm:hidden inline-flex items-center justify-center p-2 rounded-md  hover:text-[#6F5EB2]"
             >
-              {isOpen ? <RiCloseFill className="text-3xl" /> : <RiMenuFill className="text-3xl" />}
+              {isOpen ? <RiCloseFill className="text-3xl text-white" /> : <RiMenuFill className="text-3xl text-white" />}
             </button>
           </div>
         </div>
@@ -91,16 +92,16 @@ const Navbar = () => {
             className="sm:hidden overflow-hidden"
           >
             <div className="px-6 pb-6 pt-4 bg-[#12172a] border-t border-white/6 shadow-[0_12px_30px_rgba(8,7,20,0.6)]">
-              <div className="flex flex-col items-center gap-4">
+              <div className="flex  flex-col items-center gap-4">
                 {links.map((l) => (
                   <button
                     key={l}
                     onClick={() => setIsOpen(false)}
                     className="w-full text-left px-4 py-3 rounded-md hover:bg-white/3 transition-colors"
                   >
-                    <a href={`#${l}`} className="w-full block text-lg font-semibold">
+                    <Link to={l} className="w-full text-white block text-lg font-semibold">
                       {l}
-                    </a>
+                    </Link>
                   </button>
                 ))}
 

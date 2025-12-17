@@ -33,7 +33,7 @@ const projects = [
   long:
     "Personal Portfolio Website — responsive and performance-focused portfolio built with React. Showcases projects, technical skills, and experience with a clean UI, smooth navigation, and modern design principles. Designed to present a strong professional identity and improve recruiter engagement.",
   tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Tailwind CSS"],
-  media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765982305/p2_vtdzjb.mp4",
+  media: "https://res.cloudinary.com/diydvemrv/video/upload/v1765989728/portfoliooo_e7pz6r.mp4",
   poster: previewImagePath,
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
@@ -68,7 +68,7 @@ export default function Projects() {
   const prefersReduced = usePrefersReducedMotion();
 
   return (
-    <section id="projects" className="bg-[#12172a] text-white py-16">
+    <section id="Projects" className="bg-[#12172a] text-white py-16">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-[2.8rem] md:text-[3.4rem] font-[Anton SC] font-extrabold">Projects</h2>
@@ -149,6 +149,7 @@ export default function Projects() {
                         playsInline
                         autoPlay={!prefersReduced}
                         loop={!prefersReduced}
+                        preload="none"
                       />
                     ) : (
                       <img src={p.media} alt={p.title} className="project-card-media" loading="lazy" />
