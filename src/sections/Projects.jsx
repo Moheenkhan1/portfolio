@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import { FiLink, FiGithub, FiX } from "react-icons/fi";
 
 import p1video from "../assets/p1.mp4";
-import p1video from "../assets/p2.mp4";
+import p2video from "../assets/p2.mp4";
 
 const previewImagePath = "/mnt/data/A_portfolio_showcase_image_on_projects_displays_fo.png";
 
