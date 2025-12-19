@@ -87,7 +87,7 @@ const Services = () => {
     intro: "Modern UIs, component-first approach, accessible design, and delightful interactions.",
     items: [
       { label: "React", icon: <FaReact className="text-cyan-300" /> },
-      { label: "Next.js", icon: <SiNextdotjs className="text-white" /> },
+      // { label: "Next.js", icon: <SiNextdotjs className="text-white" /> },
       { label: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
       { label: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
       { label: "Framer Motion", icon: <SiFramer className="text-violet-300" /> },
@@ -131,7 +131,7 @@ const Services = () => {
       { label: "Docker", icon: <SiDocker className="text-blue-400" /> },
       { label: "Vercel", icon: <SiVercel className="text-white" /> },
       { label: "Netlify", icon: <SiNetlify className="text-cyan-300" /> },
-      { label: "Testing", icon: <FaTools className="text-sky-300" /> },
+      // { label: "Testing", icon: <FaTools className="text-sky-300" /> },
     ],
   };
 
