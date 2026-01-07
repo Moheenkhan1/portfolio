@@ -40,6 +40,22 @@ const projects = [
   isVideo: true,
   live: "https://moheenkhan-portfolio.vercel.app/",
   repo: "https://github.com/Moheenkhan1/portfolio.git"
+},
+  {
+  id: "p3",
+  title: "Food Delivery Webiste - (Java Full-Stack)",
+  date: "January 2026",
+  short:
+    "Online food delivery platform offering restaurant browsing, menu selection, and seamless ordering with secure checkout.",
+  long:
+    "Food Delivery Website — a modern and user-friendly platform that allows users to browse restaurants, explore menus, and place food orders online. The application focuses on responsive design, clean UI, and smooth navigation to deliver a seamless ordering experience. Built to support real-world workflows such as cart management, authentication, and checkout while maintaining performance and usability across devices",
+  tech: ["Java", "JEE", "JSP", "JDBC", "CSS", "HTML","Dao Design Pattern"],
+  media: "https://res.cloudinary.com/diydvemrv/video/upload/v1767805323/Untitled_video_-_Made_with_Clipchamp_tkcprl.mp4",
+  imageURL:"https://res.cloudinary.com/diydvemrv/image/upload/v1767805447/Screenshot_2026-01-07_222611_kox5li.png",
+  poster: previewImagePath,
+  isVideo: true,
+  // live: "",
+  repo: "https://github.com/Moheenkhan1/food_delivery.git"
 }
 ];
 

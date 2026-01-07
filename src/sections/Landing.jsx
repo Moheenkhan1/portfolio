@@ -24,7 +24,7 @@ function AdvancedProfile() {
   const tx = useTransform(mx, (v) => `${v / 10}px`);
   const ty = useTransform(my, (v) => `${v / 10}px`);
   
-  const portfolioimage ="https://res.cloudinary.com/diydvemrv/image/upload/v1765982042/portfolioimage_pdsunp.jpg";
+  const portfolioimage ="https://res.cloudinary.com/diydvemrv/image/upload/v1765990477/chat_files/chat-1765990476958-meeeeeeeeeeeeeeeeee.jpg.jpg";
 
   useEffect(() => {
     const node = containerRef.current;
@@ -120,7 +120,7 @@ function AdvancedProfile() {
           <img
             src={portfolioimage}
             alt="profile"
-            className="w-full h-[100%] object-cover relative z-10"
+            className="w-full h-[100%] object-cover object-[center_100%] relative z-10"
           />
           <div
             className="absolute inset-0 rounded-full mix-blend-overlay"
