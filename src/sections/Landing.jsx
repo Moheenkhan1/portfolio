@@ -275,19 +275,19 @@ const Landing = () => {
           </motion.h1>
 
           <motion.h2 variants={fade} className="mt-4 text-xl md:text-2xl font-semibold text-[#D3CFF0]">
-            FullStack Web Developer — React • Node • Spring Boot
+            FullStack Web Developer — Spring Boot • Node • React
           </motion.h2>
 
           {/* Small skill chips */}
           <motion.div variants={fade} className="mt-6 flex flex-wrap gap-3">
             <span className="px-3 py-2 rounded-lg bg-[#0f1424]/60 border border-white/6 shadow-[0_8px_22px_rgba(10,8,30,0.6)] text-sm">
-              React • Next
+              SpringBoot • SQL
             </span>
             <span className="px-3 py-2 rounded-lg bg-[#0f1424]/60 border border-white/6 shadow-[0_8px_22px_rgba(10,8,30,0.6)] text-sm">
               Node • Express
             </span>
             <span className="px-3 py-2 rounded-lg bg-[#0f1424]/60 border border-white/6 shadow-[0_8px_22px_rgba(10,8,30,0.6)] text-sm">
-              Spring • SQL
+              React • TailwindCSS
             </span>
           </motion.div>
 
@@ -339,9 +339,9 @@ const Landing = () => {
               whileHover={{ scale: 1.035 }}
               className="rounded-xl border border-white/10 bg-[#0f1424]/70 px-4 py-3 backdrop-blur-md shadow-[0_8px_20px_rgba(10,8,30,0.4)] hover-gradient-glow card-hover"
             >
-              <p className="text-xs text-gray-400">Hackathons</p>
-              <p className="text-lg font-semibold text-purple-300">2+</p>
-              <p className="text-xs text-gray-400">National-level MERN projects</p>
+              <p className="text-xs text-gray-400">Projects</p>
+              <p className="text-lg font-semibold text-purple-300">3+</p>
+              <p className="text-xs text-gray-400">SpringBoot + MERN projects</p>
             </motion.div>
 
             {/* Tech Focus */}
@@ -350,7 +350,7 @@ const Landing = () => {
               className="rounded-xl border border-white/10 bg-[#0f1424]/70 px-4 py-3 backdrop-blur-md shadow-[0_8px_20px_rgba(10,8,30,0.4)] col-span-2 sm:col-span-1 hover-gradient-glow card-hover"
             >
               <p className="text-xs text-gray-400">Tech Focus</p>
-              <p className="text-lg font-semibold text-purple-300">MERN & Java</p>
+              <p className="text-lg font-semibold text-purple-300">Java & MERN</p>
               <p className="text-xs text-gray-400">Full-stack web development</p>
             </motion.div>
           </motion.div>

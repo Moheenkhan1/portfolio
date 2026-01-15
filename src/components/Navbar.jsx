@@ -44,7 +44,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.03 }}
             aria-label="Home"
           >
-            <span className="text-white">Portfolio</span>
+            <span className="text-white">Moheenkhan</span>
             <span className="ml-2 inline-block w-2 h-2 rounded-full bg-purple-500 shadow-[0_6px_18px_rgba(125,100,212,0.25)]" />
           </motion.a>
 

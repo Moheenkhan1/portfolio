@@ -167,9 +167,9 @@ const Services = () => {
           transition={{ delay: 0.08, duration: 0.5 }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
-          <ServiceCard icon={<FaReact />} title="Frontend" subtitle="Polished & performant UIs" skills={frontend} />
-          <ServiceCard icon={<FaNodeJs />} title="MERN Backend" subtitle="APIs, realtime & authentication" skills={mern} />
           <ServiceCard icon={<FaJava />} title="Java Backend" subtitle="Enterprise backends & services" skills={java} />
+          <ServiceCard icon={<FaNodeJs />} title="MERN Backend" subtitle="APIs, realtime & authentication" skills={mern} />
+          <ServiceCard icon={<FaReact />} title="Frontend" subtitle="Polished & performant UIs" skills={frontend} />
           <ServiceCard icon={<FaTools />} title="Others" subtitle="Tooling, deployment & DX" skills={others} />
         </motion.div>
       </div>
