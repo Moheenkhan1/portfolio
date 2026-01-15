@@ -4,7 +4,18 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 // icons
-import { FaReact, FaNodeJs, FaJava, FaTools, FaLock } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaJava,
+  FaTools,
+  FaLock,
+  FaDatabase,
+  FaServer,
+  FaCode,
+  FaExchangeAlt
+} from "react-icons/fa";
+
 import {
   SiNextdotjs,
   SiTailwindcss,
@@ -24,7 +35,9 @@ import {
   SiGithub,
   SiVercel,
   SiNetlify,
+  SiSpringboot
 } from "react-icons/si";
+
 
 const skillChipClass =
   "inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-full border border-white/8 bg-[#0f1424]/70 text-[#E6E7F2] shadow-[0_8px_22px_rgba(10,8,30,0.6)]";
@@ -111,17 +124,34 @@ const Services = () => {
     ],
   };
 
+  // const java = {
+  //   intro: "Enterprise-style backends using Spring Boot, JPA/Hibernate, and relational databases.",
+  //   items: [
+  //     { label: "Java", icon: <FaJava className="text-orange-300" /> },
+  //     { label: "Spring Boot", icon: <SiSpring className="text-green-300" /> },
+  //     { label: "Hibernate / JPA", icon: <SiHibernate className="text-amber-300" /> },
+  //     { label: "MySQL / SQL", icon: <SiMysql className="text-sky-300" /> },
+  //     { label: "REST (Spring MVC)", icon: <FaTools className="text-sky-200" /> },
+  //     { label: "Spring Security", icon: <FaLock className="text-yellow-300" /> },
+  //   ],
+  // };
+
   const java = {
-    intro: "Enterprise-style backends using Spring Boot, JPA/Hibernate, and relational databases.",
-    items: [
-      { label: "Java", icon: <FaJava className="text-orange-300" /> },
-      { label: "Spring Boot", icon: <SiSpring className="text-green-300" /> },
-      { label: "Hibernate / JPA", icon: <SiHibernate className="text-amber-300" /> },
-      { label: "MySQL / SQL", icon: <SiMysql className="text-sky-300" /> },
-      { label: "REST (Spring MVC)", icon: <FaTools className="text-sky-200" /> },
-      { label: "Spring Security", icon: <FaLock className="text-yellow-300" /> },
-    ],
-  };
+  intro: "Full-stack and backend development using Java, JEE, and the Spring ecosystem with secure REST APIs.",
+  items: [
+    { label: "Java", icon: <FaJava className="text-orange-400" /> },
+    { label: "JDBC", icon: <FaDatabase className="text-sky-300" /> },
+    { label: "JEE", icon: <FaServer className="text-indigo-300" /> },
+    { label: "JSP", icon: <FaCode className="text-emerald-300" /> },
+    { label: "Hibernate", icon: <SiHibernate className="text-amber-300" /> },
+    { label: "Spring Core", icon: <SiSpring className="text-green-300" /> },
+    { label: "Spring MVC", icon: <FaTools className="text-blue-300" /> },
+    { label: "Spring Boot", icon: <SiSpringboot className="text-lime-300" /> },
+    { label: "REST APIs", icon: <FaExchangeAlt className="text-cyan-300" /> },
+    { label: "JWT Authentication", icon: <FaLock className="text-yellow-300" /> }
+  ],
+};
+
 
   const others = {
     intro: "Developer tooling and best practices: CI/CD, containers, versioning, and hosting.",

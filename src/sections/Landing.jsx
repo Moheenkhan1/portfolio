@@ -209,6 +209,20 @@ const fade = {
 const Landing = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.16 });
 
+  const handleDownloadResume = () => {
+    // Open PDF in a new tab
+    window.open(resume, "_blank");
+
+    // Trigger file download
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "MoheenKhan_Inamdar_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+
   return (
     <section
       id="About"
@@ -303,7 +317,9 @@ const Landing = () => {
               whileHover={{ scale: 1.03 }}
               className="inline-block"
             >
-              <button className="px-6 py-3 rounded-full bg-gradient-to-tr from-[#BE1ECC] to-[#7F17D5] text-white font-bold shadow-[0_18px_50px_rgba(125,100,212,0.18)] transition-transform btn-glow">
+              <button
+               onClick={handleDownloadResume}
+               className="px-6 py-3 rounded-full bg-gradient-to-tr from-[#BE1ECC] to-[#7F17D5] text-white font-bold shadow-[0_18px_50px_rgba(125,100,212,0.18)] transition-transform btn-glow">
                 Download Resume
               </button>
             </motion.a>
