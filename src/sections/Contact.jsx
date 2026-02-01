@@ -137,10 +137,10 @@ const debounceTimer = useRef(null);
     setCheckingEmail(true);
     try {
       const response = await fetch(
-        `https://emailvalidation.abstractapi.com/v1/?api_key=5ceb9dfdab1642f18c4654bcbbb35a96&email=${emailToCheck}`
+        `https://emailreputation.abstractapi.com/v1/?api_key=d1f2ca772d864e04b7f18c689ce6ebda&email=${emailToCheck}`
       );
       const data = await response.json();
-      setEmailValid(data.deliverability === "DELIVERABLE");
+      setEmailValid(data.email_deliverability.status === "deliverable");
     } catch (error) {
       console.error("Email verification error:", error);
       setEmailValid(false);
